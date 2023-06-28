@@ -1,5 +1,13 @@
+#Le Burger quiz
+    #gameState.py : class describing the game state (progress, part, ...)
+
+#Date : 25/06/2023 
+#Author : MALOSSE Alice
+
+#Import
 from equipe import Equipe
 
+#Manage the game state and part
 class GameState() :
     #init game variable
     def __init__(self, prevLevel = 0):
@@ -19,3 +27,9 @@ class GameState() :
 
         for i in range(self.nbTeam): 
             self.teamList.append(Equipe(self.teamName[i]))
+
+    #Draw the rules of the current part
+    def drawRules (self, ) :
+        filepath = "./Ressources/" + self.currentPart
+        #TODO
+        return 0

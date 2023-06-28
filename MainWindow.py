@@ -1,12 +1,14 @@
-"""
-MainWindow.py
-Class describing the widgets in the game window
-25/06/2023 by  MALOSSE Alice
-"""
+#Le Burger quiz
+    #MainWindow.py : class describing the widgets in the game window
 
+#Date : 25/06/2023 
+#Author : MALOSSE Alice
+
+#Import
 from tkinter import Tk, Label, Button, Canvas
 from gameCanvas import GameCanvas
 
+#Create and manage the Tkinter Window
 class MainWindow(Tk) :
     #init manages the layout of the window
     def __init__(self, gameState):

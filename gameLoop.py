@@ -1,10 +1,13 @@
-"""
-gameLoop.py
-Function managing the game and drawing loop
-25/06/2023 by MALOSSE Alice
-"""
+#Le Burger quiz
+    #gameLoop.py : function managing the game and drawing loop
+
+#Date : 25/06/2023 
+#Author : MALOSSE Alice
+
+#Import
 from gameState import GameState
 
+#Init
 framesPerSecond = 30
 
 #Main loop

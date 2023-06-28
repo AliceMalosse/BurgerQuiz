@@ -1,6 +1,11 @@
 #Le Burger quiz
     #question.py : Fichier contenant la classe Equipe
 
+#Date : 25/06/2023 
+#Author : MALOSSE Alice
+
+#NB : May not be used
+
 #Import
 
 #Classe Epreuve

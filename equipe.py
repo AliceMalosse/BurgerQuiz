@@ -1,10 +1,13 @@
 #Le Burger quiz
     #equipe.py : Fichier contenant la classe Equipe
 
+#Date : 25/06/2023 
+#Author : MALOSSE Alice
+
 #Import
 
-#Classe Equipe
-
+#Class Equipe
+    # Manage team point and gif to print point on the Canvas
 class Equipe :
     def __init__ (self, new_name) :
         self.name = new_name

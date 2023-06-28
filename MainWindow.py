@@ -14,17 +14,21 @@ class MainWindow(Tk) :
 
         #window option
         self.title("Burger Quiz")
-        self.minsize(1280, 720) 
+        self.minsize(1600, 900) 
 
         #widget
         self.gameCanvas = GameCanvas()
-        self.gameButton = Button(self, text="New Game",command=gameState.startNewGame, bg='black', font='Horseshoes', fg='yellow',relief='flat')
-        self.quitButton = Button(self, text="Quit", command=self.destroy, bg='black', font='Horseshoes', fg='white',relief='flat')
+        self.gameButton2 = Button(self, text="2 Joueurs",command=lambda:gameState.startNewGame(2), bg='black', font='Horseshoes', fg='yellow',relief='flat')
+        self.gameButton3 = Button(self, text="3 Joueurs",command=lambda:gameState.startNewGame(3), bg='black', font='Horseshoes', fg='yellow',relief='flat')
+        self.gameButton4 = Button(self, text="4 Joueurs",command=lambda:gameState.startNewGame(4), bg='black', font='Horseshoes', fg='yellow',relief='flat')
+        self.quitButton = Button(self, text="Quit", command=self.destroy, bg='black', font='Horseshoes', fg='red',relief='flat')
 
         #pack
         self.gameCanvas.pack()
-        self.gameButton.place(x=5,y=715)
-        self.quitButton.place(x=1275,y=715)
+        self.gameButton2.place(x=250,y=775)
+        self.gameButton3.place(x=370,y=775)
+        self.gameButton4.place(x=490,y=775)
+        self.quitButton.place(x=1500,y=775)
 
     #detect board click and add keycode to function 
     def manageEvent (self, gameState):

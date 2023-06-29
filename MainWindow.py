@@ -23,6 +23,7 @@ class MainWindow(Tk) :
         self.gameButton2 = Button(self, text="2 Joueurs",command=lambda:gameState.startNewGame(2), bg='black', font='Horseshoes', fg='yellow',relief='flat')
         self.gameButton3 = Button(self, text="3 Joueurs",command=lambda:gameState.startNewGame(3), bg='black', font='Horseshoes', fg='yellow',relief='flat')
         self.gameButton4 = Button(self, text="4 Joueurs",command=lambda:gameState.startNewGame(4), bg='black', font='Horseshoes', fg='yellow',relief='flat')
+        self.finalDuelButton = Button(self, text="Burger de la mort subite",command=gameState.startMortSubite(), bg='black', font='Horseshoes', fg='yellow',relief='flat')
         self.quitButton = Button(self, text="Quit", command=self.destroy, bg='black', font='Horseshoes', fg='red',relief='flat')
 
         #pack
@@ -30,6 +31,7 @@ class MainWindow(Tk) :
         self.gameButton2.place(x=250,y=775)
         self.gameButton3.place(x=370,y=775)
         self.gameButton4.place(x=490,y=775)
+        self.finalDuelButton.place(x=610,y=775)
         self.quitButton.place(x=1500,y=775)
 
     #detect board click and add keycode to function 

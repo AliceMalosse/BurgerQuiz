@@ -5,6 +5,7 @@
 #Author : MALOSSE Alice
 
 #Import
+from PIL import Image
 
 #Class Equipe
     # Manage team point and gif to print point on the Canvas
@@ -12,10 +13,14 @@ class Equipe :
     def __init__ (self, new_name) :
         self.name = new_name
         self.nb_miam = 0
+        self.gif = Image.open("./Ressources/"+self.name+".gif")
 
     def plusmiam (self, ) :
         self.nb_miam += 1
 
     def get_nb_miam (self, ) :
         return self.nb_miam
+    
+    def draw (self, ) : 
+        return 0
 

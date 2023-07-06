@@ -144,16 +144,16 @@ Q8 : Jean
 Q9 : Le père
 Q10 : Elon
 Tout ce qu’on déteste
-Q1 : Citer quelque chose que je déteste.
-Q2 : Citer quelqu’un que Julie déteste.
+Q1 : Citer quelqu’un que je déteste.
+Q2 : Citer quelque chose que Mamie déteste.
 Q3 : Citer quelque chose que Denis déteste.
 Q4 : Citer quelqu’un que Papy déteste.
 Q5 : Citer quelque chose que tout le monde déteste.
-Q6 : Citer quelque chose ou quelqu’un que Marie Laure déteste.
-Q7 : Citer quelqu’un que je déteste.
-Q8 : Citer quelque chose que Julie déteste.
+Q6 : Citer quelque chose que Denis aime, mais que tout le monde déteste.
+Q7 : Citer trois aliments que les enfants détestent.
+Q8 : Citer trois personnages de dessins animés que les parents détestent.
 Q9 : Citer quelqu’un que tout le monde déteste.
-Q10 : Citer quelque chose ou quelqu’un que vous.
+Q10 : Citer quelque chose ou quelqu’un que vous détestez.
 Burger de la mort
 Q1 : Quelle est la capitale de la France ? 
 Q2 : 10+5 ? 

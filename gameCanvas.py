@@ -13,44 +13,36 @@ from PIL import Image, ImageTk
 class GameCanvas(Canvas):
     def __init__(self):
 
-        self.height = 900
-        self.width = 1600
+        self.height = 820
+        self.width = 1550
         Canvas.__init__(self, width = self.width, height = self.height , bg="black")
 
         #uploading static images
-        #self.ImLogo = PhotoImage(file="./Ressources/BBQ.gif") #TODO : Remplacer par le logo
-        self.ImLogo = self.treatImage("./Ressources/burgerQuiz.jpg", (300, 419))
-        #TODO : creer une banderole pour programme moins lourd
-        self.ImNuggets = self.treatImage("./Ressources/nuggets.png", (200, 112))
-        self.ImSelPoivre = self.treatImage("./Ressources/seloupoivre.jpg", (200, 124))
-        self.ImMenu = PhotoImage(file="./Ressources/BBQ.gif")
-        self.ImAddition = self.treatImage("./Ressources/addition.png", (200, 112))
-        self.ImBurgerMort = self.treatImage("./Ressources/burgerdelamort.jpg", (250, 185))
-        self.ImAdditionMort = PhotoImage(file="./Ressources/BBQ.gif")
+        self.ImLogo = self.treatImage("./Ressources/logoVertical.png", (187, 250))
+        self.ImTitle = self.treatImage("./Ressources/BurgerQuiz.png", (500, 400))
 
     #Main drawing function. Calls all the other entity related draw function
     def updateCanvas(self, gameState):
         self.delete('all')
-        self.textNewGame=self.create_text(120,790,text='New Game :', fill='red', font=('Horseshoes',20))
+        self.textNewGame=self.create_text(90,763,text='New Game :', fill='red', font=('HorseshoesAndLemonade',20))
 
         if gameState.state=="started"  :
             #Logo
             self.logoQuiz = self.create_image(1,1,image=self.ImLogo, anchor="nw")
 
             #Game differents states
-            self.previewNuggets = self.create_image(350, 1, image=self.ImNuggets, anchor="nw")
-            self.previewSeloupoivre = self.create_image(550, 1, image=self.ImSelPoivre, anchor="nw")
-            #self.previewMenu = self.create_image(350, 1, image=self.ImMenu, anchor="nw")
-            #self.previewAddition = self.create_image(350, 1, image=self.ImAddition, anchor="nw")
-            self.previewBurgermort = self.create_image(1350, 1, image=self.ImBurgerMort, anchor="nw")
-        
+            self.textNuggets=self.create_text(290,50,text='Nuggets', fill='#403CAC', font=('HorseshoesAndLemonade',30))
+            self.textSeloupoivre=self.create_text(550,50,text='Sel ou Poivre', fill='#5B9BD5', font=('HorseshoesAndLemonade',30))
+            self.textMenus=self.create_text(790,50,text='Menus', fill='#403CAC', font=('HorseshoesAndLemonade',30))
+            self.textAddition=self.create_text(980,50,text='Addition', fill='#5B9BD5', font=('HorseshoesAndLemonade',30))
+            self.textBurgerMort=self.create_text(1300,50,text='Burger de la Mort', fill='#403CAC', font=('HorseshoesAndLemonade',30))
+
             gameState.drawRules() #TODO : Creer les slides de regles
             for team in gameState.teamList :
                 team.draw()
 
         elif gameState.state=='notStarted' or gameState.state=='endGame':
-            self.textTitle=self.create_text(790,290,text='BURGER', fill='yellow', font=('Horseshoes',90))
-            self.textTitle=self.create_text(790,410,text='QUIZ', fill='yellow', font=('Horseshoes',90))
+            self.logoQuiz = self.create_image(740,350,image=self.ImTitle)
 
 
     def treatImage (self, filename, size) :

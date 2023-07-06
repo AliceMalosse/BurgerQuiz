@@ -11,7 +11,6 @@ from equipe import Equipe
 class GameState() :
     #init game variable
     def __init__(self, ):
-
         self.state="notStarted"
         self.nbTeam=0
         self.teamList=[]
@@ -36,4 +35,7 @@ class GameState() :
     def drawRules (self, ) :
         filepath = "./Ressources/" + self.currentPart
         #TODO
+        return 0
+    
+    def nuggets (self,):
         return 0

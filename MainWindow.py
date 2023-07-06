@@ -16,7 +16,7 @@ class MainWindow(Tk) :
 
         #window option
         self.title("Burger Quiz")
-        self.minsize(1600, 900) 
+        self.minsize(1550, 820) 
 
         #widget
         self.gameCanvas = GameCanvas()
@@ -24,15 +24,20 @@ class MainWindow(Tk) :
         self.gameButton3 = Button(self, text="3 Joueurs",command=lambda:gameState.startNewGame(3), bg='black', font='Horseshoes', fg='yellow',relief='flat')
         self.gameButton4 = Button(self, text="4 Joueurs",command=lambda:gameState.startNewGame(4), bg='black', font='Horseshoes', fg='yellow',relief='flat')
         self.finalDuelButton = Button(self, text="Burger de la mort subite",command=gameState.startMortSubite(), bg='black', font='Horseshoes', fg='yellow',relief='flat')
-        self.quitButton = Button(self, text="Quit", command=self.destroy, bg='black', font='Horseshoes', fg='red',relief='flat')
+        self.quitButton = Button(self, text="Quit", command=self.destroy, bg='black', font=('HorseshoesAndLemonade',22), fg='red',relief='flat')
+
+        self.nuggets = Button(self, text='', command=gameState.nuggets(),bg='black')
+
+        gameState.state = "notStarted"
 
         #pack
         self.gameCanvas.pack()
-        self.gameButton2.place(x=250,y=775)
-        self.gameButton3.place(x=370,y=775)
-        self.gameButton4.place(x=490,y=775)
-        self.finalDuelButton.place(x=610,y=775)
-        self.quitButton.place(x=1500,y=775)
+        self.gameButton2.place(x=190,y=744)
+        self.gameButton3.place(x=310,y=744)
+        self.gameButton4.place(x=430,y=744)
+        self.finalDuelButton.place(x=550,y=744)
+        self.quitButton.place(x=1435,y=730)
+        self.nuggets.place(x=290,y=50)
 
     #detect board click and add keycode to function 
     def manageEvent (self, gameState):

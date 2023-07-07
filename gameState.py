@@ -31,12 +31,5 @@ class GameState() :
         self.startNewGame(2)
         self.currentPart=self.partList[-1]
 
-    #Draw the rules of the current part
-    def drawRules (self, ) :
-        filepath = "./Ressources/" + self.currentPart
-        #TODO
-        return 0
     
-    def nuggets (self,):
-        return 0
     

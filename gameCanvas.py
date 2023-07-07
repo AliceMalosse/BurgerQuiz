@@ -18,8 +18,8 @@ class GameCanvas(Canvas):
         Canvas.__init__(self, width = self.width, height = self.height , bg="black")
 
         #uploading static images
-        self.ImLogo = self.treatImage("./Ressources/logoVertical.png", (187, 250))
-        self.ImTitle = self.treatImage("./Ressources/BurgerQuiz.png", (500, 400))
+        self.ImLogo = self.treatImage("./Ressources/logoVertical.PNG", (187, 250))
+        self.ImTitle = self.treatImage("./Ressources/BurgerQuiz.PNG", (500, 400))
 
     #Main drawing function. Calls all the other entity related draw function
     def updateCanvas(self, gameState):
@@ -37,9 +37,8 @@ class GameCanvas(Canvas):
             self.textAddition=self.create_text(980,50,text='Addition', fill='#5B9BD5', font=('HorseshoesAndLemonade',30))
             self.textBurgerMort=self.create_text(1300,50,text='Burger de la Mort', fill='#403CAC', font=('HorseshoesAndLemonade',30))
 
-            gameState.drawRules() #TODO : Creer les slides de regles
             for team in gameState.teamList :
-                team.draw()
+                team.draw(self)
 
         elif gameState.state=='notStarted' or gameState.state=='endGame':
             self.logoQuiz = self.create_image(740,350,image=self.ImTitle)

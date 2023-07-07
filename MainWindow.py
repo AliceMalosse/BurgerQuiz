@@ -26,8 +26,6 @@ class MainWindow(Tk) :
         self.finalDuelButton = Button(self, text="Burger de la mort subite",command=gameState.startMortSubite(), bg='black', font='Horseshoes', fg='yellow',relief='flat')
         self.quitButton = Button(self, text="Quit", command=self.destroy, bg='black', font=('HorseshoesAndLemonade',22), fg='red',relief='flat')
 
-        self.nuggets = Button(self, text='', command=gameState.nuggets(),bg='black')
-
         gameState.state = "notStarted"
 
         #pack
@@ -37,7 +35,6 @@ class MainWindow(Tk) :
         self.gameButton4.place(x=430,y=744)
         self.finalDuelButton.place(x=550,y=744)
         self.quitButton.place(x=1435,y=730)
-        self.nuggets.place(x=290,y=50)
 
     #detect board click and add keycode to function 
     def manageEvent (self, gameState):

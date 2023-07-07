@@ -8,4 +8,8 @@
 from question import Questions
 
 #Test
-quiz1 = Questions("./Ressources/editionEte2023-quiz2.txt")
+
+#Question classique
+#quiz1 = Questions("./Ressources/editionEte2023-quiz2.txt")
+#Question Addition de la mort
+#quizMort = Questions ("./Ressources/additionPlus.txt")

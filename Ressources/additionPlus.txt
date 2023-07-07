@@ -1,5 +1,5 @@
 Addition de la mort
-Noms de membre de la famille - Pas de doublons
+Noms de membre de la famille
 Q1 : C’est le nom d’un vent.
 Q2 : Qui a tué le Jabberwocky de la Reine Rouge.
 Q3 : Est une nageuse française de niveau Olympique.
@@ -10,3 +10,4 @@ Q7 : Est allé dans l’espace.
 Q8 : Quelle est la variante française du prénom Allemand Dionysius ?
 Q9 : Qui est l’actrice principale du film La Boum ?
 Q10 : Donnez-moi un prénom qui n’a pas encore été cité de tout le quiz.
+

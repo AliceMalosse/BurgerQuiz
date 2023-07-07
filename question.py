@@ -4,8 +4,6 @@
 #Date : 25/06/2023 
 #Author : MALOSSE Alice
 
-#Import
-
 #Classe Epreuve
 class Epreuve : 
     def __init__ (self, name, intitule) :
@@ -29,7 +27,7 @@ class Questions :
         #Initialisation
         with open(filename) as file : 
             lines = file.readlines()
-        list_name_epreuve = ["Nuggets\n", "Sel ou poivre\n", "Menus\n", "Menu\n", "Addition\n", "Burger de la mort\n"]
+        list_name_epreuve = ["Nuggets\n", "Sel ou poivre\n", "Menus\n", "Menu\n", "Addition\n", "Burger de la mort\n", "Addition de la mort\n"]
         i = 0
         #While there is a next epreuve
         while (lines[i] in list_name_epreuve) :

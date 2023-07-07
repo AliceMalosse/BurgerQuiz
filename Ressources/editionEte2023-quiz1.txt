@@ -1,5 +1,5 @@
-Edition Eté 2023
 Nuggets
+
 Q1 :  Quel est le vice caché de Sherlock Holmes
 A : Il est zoophile
 B : Il est pigiste au Figaro
@@ -68,6 +68,7 @@ Q3 : A un frère ?
 Q4 : Porte des lunettes ? 
 Q5 : Collectionne les phares ? 
 Q6 : A déjà fait des travaux chez lui ? 
+Sel ou poivre
 Thor, le Roquefort ou les deux ?
 Q1 : Es très fort ?	
 Q2 : Vient du nord ? 
@@ -75,13 +76,14 @@ Q3 : Est invité au mariage ?
 Q4 : Date du 11eme siècle ?
 Q5 : Sacrifie les brebis ? 
 Q6 : Vient de France ? 
-Menus  
+Menus
 Disney
 1969
 Dessin Animes Francais
 Hexagone
 Famille
-Menu 1 : Disney
+Menu
+Disney
 Q1 : Combien de sœurs a Ariel ?
 Q2 : Quelle princesse se bat avec une poêle ?
 Q3 : Quel est le rêve d'Olaf dans La reine des neiges ?
@@ -91,7 +93,8 @@ Q6 : Citez moi une série Disney Channel
 Q7 : Citez trois personnages Disney qui ne soit ni humain (sorcière, fée et nain compris) ni animal - ou qui ne le deviennent.
 Q8 : Un film des studios Disney qui se déroule en France.
 Q9 : Citez cinq personnages Disney qui meurent durant un film
-Menu 2 : Dessins animés français  
+Menu
+Dessins animés français  
 Q1 : Code Lyoko : Comment s'appelle l'ennemi des Lyoko guerrier ?
 Q2 : Il était une fois ... : Comment s'appelle le vieux à la barbe blanche dans la série ? 
 Q3 : Miraculous Ladybug : Dans quelle ville se passe la série ?
@@ -101,7 +104,8 @@ Q6 : Ulysse 31 : Quand se passe la série ?
 Q7 : Les mystérieuses cités d'or : Comment fonctionne le Grand Condor ?
 Q8 : Dans quelle série peut-on retrouver la famille Dotcom dont font partie Blog, Spam, Web et Url ?
 Q9 : Comment s'appelle l'équipe d'agent du Whoop menez par Jerry ?
-Menu 3 : Famille
+Menu
+Famille
 Q1 : Quel âge a Papi ?
 Q2 : Quel est le prénom de Mamie ?
 Q3 : Où se sont mariées Sophie et Christophe ?
@@ -111,7 +115,8 @@ Q6 : Citez moi trois theme de spectacle de danse moderne jazz :
 Q7 : Quel pays ont visité Denis et Marie Laure l’an dernier ? 
 Q8 : Citez moi deux sports qu’on pratiqué - ou pratique toujours - Adrien et/ou Thomas ? 
 Q9 : En quelle année a été célébrée la dernière communion dans la famille ?
-Menu 4 : 1969
+Menu
+1969
 Q1 : Donnez les noms de trois membres de la famille née en 1969 ? 
 Q2 : Le 21 juillet 1969, l’homme fait ses premiers pas sur la lune. Donnez le nom des astronautes de la mission Apollo 11. 
 Q3 : Qui est élu président des Français en 1969 ? 
@@ -121,7 +126,8 @@ Q6 : Citez trois films dans lesquels a joué l’acteur Jack Black.
 Q7 : Citez trois chansons de Patrick Fiori. 
 Q8 : Que représentent les “Emeutes de Stonewall” qui ont eu lieu à New York en 1969 ?
 Q9 : Quelle série d’animation mettant en scène de jeunes enquêteurs accompagnés de leur chien peureux est diffusée pour la première fois en 1969 ? 
-Menu 7 : Hexagone
+Menu
+Hexagone
 Q1 : Combien de côtés possède un hexagone ? 
 Q2 : Il existe une voiture nommée HEXA, de quelle marque est-elle ? 
 Q3 : Dans le vieux parler Lyonnais, qu’est ce qu’un Gone ? 
@@ -143,6 +149,7 @@ Q7 : France
 Q8 : Ecole
 Q9 : La gras
 Q10 : Marie 
+Addition
 Anglicismes
 Q1 : C’est un truc qui peut te sauver la vie si tu prends la voiture en aillant un peu trop bu. Ca marche aussi si c’est le gars dans la voiture d’en face qui a trop bu
 Q2 : c’est une coupe glacée composée de trois boules de glaces chocolat, vanille et fraise, de chantilly et d’un fruit de forme phallique.
@@ -155,6 +162,7 @@ Q8 : C’est ce qui arrive quand tu regardes trop les réseaux sociaux alors que
 Q9 : C’est quand t’as eu les yeux plus gros que le ventre au resto, et que faut pas gâcher.
 Q10 : On devrait plutôt dire déjeunette, grand petit déjeuner ou encore petit-déjeuner déjeuner.
 Burger de la mort
+
 Q1 : Quelle est la couleur du cheval blanc d’Henri IV ?
 Q2 : Combien as-tu de main ? 
 Q3 : Où sommes-nous ?
@@ -165,3 +173,4 @@ Q7 : De quelle couleur sont les Stroumfs ?
 Q8 : Es-tu blond ? 
 Q9 : Quel est mon nom ?
 Q10 : Penses-tu réussir cette épreuve ?
+

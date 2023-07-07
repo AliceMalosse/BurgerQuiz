@@ -39,3 +39,4 @@ class GameState() :
     
     def nuggets (self,):
         return 0
+    

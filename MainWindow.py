@@ -23,6 +23,7 @@ class MainWindow(Tk) :
         self.gameButton2 = Button(self, text="2 Joueurs",command=lambda:gameState.startNewGame(2), bg='black', font='Horseshoes', fg='yellow',relief='flat')
         self.gameButton3 = Button(self, text="3 Joueurs",command=lambda:gameState.startNewGame(3), bg='black', font='Horseshoes', fg='yellow',relief='flat')
         self.gameButton4 = Button(self, text="4 Joueurs",command=lambda:gameState.startNewGame(4), bg='black', font='Horseshoes', fg='yellow',relief='flat')
+        self.nextButton = Button(self, text="Next", command=gameState.next_question(), bg='black', font=('HorseshoesAndLemonade',22), fg='#403CAC',relief='flat')
         self.finalDuelButton = Button(self, text="Burger de la mort subite",command=gameState.startMortSubite(), bg='black', font='Horseshoes', fg='yellow',relief='flat')
         self.quitButton = Button(self, text="Quit", command=self.destroy, bg='black', font=('HorseshoesAndLemonade',22), fg='red',relief='flat')
 
@@ -33,6 +34,7 @@ class MainWindow(Tk) :
         self.gameButton2.place(x=190,y=744)
         self.gameButton3.place(x=310,y=744)
         self.gameButton4.place(x=430,y=744)
+        self.nextButton.place(x=1000, y=730)
         self.finalDuelButton.place(x=550,y=744)
         self.quitButton.place(x=1435,y=730)
 

@@ -19,7 +19,6 @@ def gameLoop(mainWindow, gameState):
     if gameState.state == "started":
         for i in range(gameState.nbTeam): 
             gameState.teamList[i].nb_miam==25
-            gameState.currentPart==gameState.partList[-1]
 
 
 

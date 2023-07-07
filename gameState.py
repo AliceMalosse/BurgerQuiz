@@ -6,6 +6,7 @@
 
 #Import
 from equipe import Equipe
+from question import Questions
 
 #Manage the game state and part
 class GameState() :
@@ -15,8 +16,8 @@ class GameState() :
         self.nbTeam=0
         self.teamList=[]
         self.teamName=["Ketchup", "Mayo", "BBQ", "Creamy"]
-        self.partList=["Nuggets", "Sel ou poivre", "Menu", "Addition", "Burger de la mort", "Mort subite"]
-        self.currentPart=self.partList[0]
+        self.question=Questions("./Ressources/editionEte2023-quiz2.txt")
+        self.press_next = False
 
     #Called to start a new level or a new game
     def startNewGame(self, nb_team):
@@ -29,7 +30,9 @@ class GameState() :
 
     def startMortSubite(self,) :
         self.startNewGame(2)
-        self.currentPart=self.partList[-1]
+
+    def next_question(self,) :
+        self.press_next=True
 
     
     

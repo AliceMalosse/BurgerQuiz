@@ -6,7 +6,7 @@
 
 
 #Import
-from tkinter import Canvas, PhotoImage
+from tkinter import Canvas, Button
 from PIL import Image, ImageTk
 
 #Contains all the elements necessary for display
@@ -38,17 +38,16 @@ class GameCanvas(Canvas):
             self.textAddition=self.create_text(980,63,text='Addition', fill='#5B9BD5', font=('HorseshoesAndLemonade',30))
             self.textBurgerMort=self.create_text(1300,63,text='Burger de la Mort', fill='#403CAC', font=('HorseshoesAndLemonade',30))
 
+            #Teams
             for team in gameState.teamList :
                 team.draw(self)
             
-            #795x560 -> 0.7
-            #self.cadre = self.create_rectangle(355, 150, 1150, 710, outline='yellow', width=10)
-            #self.cadre = self.create_rectangle(355, 150, 1150, 710, outline='red', width=10, dash=(100,))
+            #Question 
+            gameState.question.update(gameState)
             self.cadre = self.create_image(753, 430,image=self.ImCadre)
 
         elif gameState.state=='notStarted' or gameState.state=='endGame':
             self.logoQuiz = self.create_image(740,350,image=self.ImTitle)
-
 
     def treatImage (self, filename, size) :
         im = Image.open(filename)

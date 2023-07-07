@@ -25,18 +25,18 @@ class Equipe :
     
     def init_position (self, ) :
         if self.name == "Ketchup" :
-            position = (180, 350)
+            position = (200, 350)
         elif self.name == "Mayo" :
-            position = (180, 550)
+            position = (200, 600)
         elif self.name == "Creamy" :
             position = (1370, 350)
         else : #self.name == "BBQ"
-            position = (1370, 550)
+            position = (1370, 600)
         return position
 
     def init_draw (self, ) :
         im = Image.open("./Ressources/"+self.name+".gif")
-        im = im.resize((350, 196))
+        im = im.resize((400, 224))
         return ImageTk.PhotoImage(im)
 
     def draw (self, gameCanvas) : 

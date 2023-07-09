@@ -16,8 +16,8 @@ class GameState() :
         self.nbTeam=0
         self.teamList=[]
         self.teamName=["Ketchup", "Mayo", "BBQ", "Creamy"]
-        self.question=Questions("./Ressources/editionEte2023-quiz2.txt")
         self.press_next = False
+        self.question = Questions("./Ressources/editionEte2023-quiz1.txt")
 
     #Called to start a new level or a new game
     def startNewGame(self, nb_team):
@@ -28,11 +28,17 @@ class GameState() :
         for i in range(self.nbTeam): 
             self.teamList.append(Equipe(self.teamName[i]))
 
-    def startMortSubite(self,) :
-        self.startNewGame(2)
+    def chooseQuiz(self, ind) :
+        if ind == 1 :
+            self.question = Questions("./Ressources/editionEte2023-quiz1.txt")
+        elif ind == 2 :
+            self.question = Questions("./Ressources/editionEte2023-quiz2.txt")
+        else : 
+            self.question = Questions("./Ressources/additionPlus.txt")
 
     def next_question(self,) :
-        self.press_next=True
+        print ("next - GameState")
+        self.question.next_question()
 
     
     

@@ -1,6 +1,6 @@
 Nuggets
 
-Q1 :  Quel est le vice caché de Sherlock Holmes
+Q1 :  Quel est le vice cache de Sherlock Holmes
 A : Il est zoophile
 B : Il est pigiste au Figaro
 C : Il est cocaïnomane
@@ -8,72 +8,72 @@ D : Il mange ses crottes de nez
 Q2 : Parmi ces affirmations sur les noms de villes, laquelle est correcte ?
 A : Avignon est le croisement de la ville d’Avi et la ville de Gnon
 B : Budapest est le croisement de la ville de Buda et la ville de Pest
-C : Biarritz est le croisement de la ville de Biar avec l’hôtel « Le Ritz »
+C : Biarritz est le croisement de la ville de Biar avec l’hotel « Le Ritz »
 D : Amsterdam est le croisement d’un hamster et d’une dame
 Q3 : Quel est l'origine du mot "SWAG" ?
 A : C’est l’acronyme de « Secretly We Are Gay ».
-B : C’est le verlan de « GAWS » en anglais qui veut dire « trop stylé ».
-C : C’est le dérivé du verbe « to swagger » inventé par W. Shakespeare en 1590.
-D : On en a aucune idée. Il y a des questions comme ça, sans réponses.
+B : C’est le verlan de « GAWS » en anglais qui veut dire « trop style ».
+C : C’est le derive du verbe « to swagger » invente par W. Shakespeare en 1590.
+D : On en a aucune idee. Il y a des questions comme ça, sans réponses.
 Q4 : Comment l'hippopotame fait-il popo ?
 A : Il disperse ses crottes avec sa queue pour marquer son territoire.
-B : Il doit arrêter toute activité pour ne faire que ça, tellement c’est long et pénible.
+B : Il doit arrêter toute activite pour ne faire que ça, tellement c’est long et penible.
 C : Il expulse un gros rondin d’un coup et c’est assez spectaculaire.
-D : Il ne fait jamais caca, d’où sa taille.
+D : Il ne fait jamais caca, d’ou sa taille.
 Q5 : Lequel de ces magazines flippants n'existe pas ?
 A : Crimes magazine.
 B : Menaces actuelles.
 C : Commando magazine.
-D : Enquêtes sexuelles.
-Q6 : Laquelle de ces informations concernant les réseaux sociaux est vraie ?
-A : Snapchat conserve toutes vos photos et vidéos et peut vous extorquer comme bon lui semble.
-B : Facebook peut enregistrer des sons et des vidéos à partir de votre téléphone sans votre consentement.
-C : Chaque tweet posté aux États-Unis est vérifié par le FBI.
-D : Personne n’a jamais trouvé de boulot grâce à Linkedin.
+D : Enquetes sexuelles.
+Q6 : Laquelle de ces informations concernant les reseaux sociaux est vraie ?
+A : Snapchat conserve toutes vos photos et videos et peut vous extorquer comme bon lui semble.
+B : Facebook peut enregistrer des sons et des videos à partir de votre téléphone sans votre consentement.
+C : Chaque tweet poste aux États-Unis est verifie par le FBI.
+D : Personne n’a jamais trouve de boulot grace à Linkedin.
 Q7 : Qui est Barbara Millicent Robert ?
 A : Une top model Hongroise
 B : Une macaque 
-C : Une poupée
+C : Une poupee
 D : Le nom de la premiere femme a avoir obtenue son permis
 Q8 : En raison de la dilatation thermique, en été la Tour Eiffel grandit de : 
 A : 15 cm
 B : 40 cm
 C : 1 m
 D : 3 m
-Q9 : Quel dieu n’est pas l’enfant d'Arès et d’Aphrodite ?
+Q9 : Quel dieu n’est pas l’enfant d'Ares et d’Aphrodite ?
 A : Phobos
 B : Harmonie
 C : Eros
 D : Deimos
-Q10 : Que vend-t-on dans le célèbre magasin Ladurée à Paris ?
-A : Du thé
+Q10 : Que vend-t-on dans le célèbre magasin Laduree à Paris ?
+A : Du the
 B : Des Macarons
 C : Des bonbon artisanaux
-D : Du vin en provenance du domaine de Ladurée
+D : Du vin en provenance du domaine de Laduree
 Q11 : A quelle famille les hommes appartiennent-ils ?
 A : Les Homosapientum
 B : Les Primates
 C : Les Homonoides
-D : Les Hominidés
+D : Les Hominides
 Q12 : Qu’est-ce qu’un canistrelli ? 
-A : Un biscuit à l'abricot de Florence
+A : Un biscuit a l'abricot de Florence
 B : Un biscuit au miel de Sardaigne
-C : Un biscuit salé de la région de Venise
+C : Un biscuit sale de la région de Venise
 D : Un biscuit sec et sucre de Corse
 Sel ou poivre
 Christophe, Jean Christophe ou les deux ?
 Q1 : Aime cuisiner ? 
-Q2 : A fait son service militaire dans l'armée de l’air ? 
-Q3 : A un frère ? 
+Q2 : A fait son service militaire dans l'armee de l’air ? 
+Q3 : A un frere ? 
 Q4 : Porte des lunettes ? 
 Q5 : Collectionne les phares ? 
-Q6 : A déjà fait des travaux chez lui ? 
+Q6 : A deja fait des travaux chez lui ? 
 Sel ou poivre
 Thor, le Roquefort ou les deux ?
-Q1 : Es très fort ?	
+Q1 : Es tres fort ?	
 Q2 : Vient du nord ? 
-Q3 : Est invité au mariage ? 
-Q4 : Date du 11eme siècle ?
+Q3 : Est invite au mariage ? 
+Q4 : Date du 11eme siecle ?
 Q5 : Sacrifie les brebis ? 
 Q6 : Vient de France ? 
 Menus
@@ -85,60 +85,60 @@ Famille
 Menu
 Disney
 Q1 : Combien de sœurs a Ariel ?
-Q2 : Quelle princesse se bat avec une poêle ?
-Q3 : Quel est le rêve d'Olaf dans La reine des neiges ?
-Q4 : Donnez-moi trois films Disney (hors Pixar) qui n'a pas son équivalent Live-action ?
-Q5 : Sous quelle présidence a été construit le parc DisneyLand Paris ?
-Q6 : Citez moi une série Disney Channel
-Q7 : Citez trois personnages Disney qui ne soit ni humain (sorcière, fée et nain compris) ni animal - ou qui ne le deviennent.
-Q8 : Un film des studios Disney qui se déroule en France.
+Q2 : Quelle princesse se bat avec une poele ?
+Q3 : Quel est le reve d'Olaf dans La reine des neiges ?
+Q4 : Donnez-moi trois films Disney (hors Pixar) qui n'a pas son equivalent Live-action ?
+Q5 : Sous quelle presidence a ete construit le parc DisneyLand Paris ?
+Q6 : Citez moi une serie Disney Channel
+Q7 : Citez trois personnages Disney qui ne soit ni humain (sorciere, fee et nain compris) ni animal - ou qui ne le deviennent.
+Q8 : Un film des studios Disney qui se deroule en France.
 Q9 : Citez cinq personnages Disney qui meurent durant un film
 Menu
-Dessins animés français  
+Dessins animes français  
 Q1 : Code Lyoko : Comment s'appelle l'ennemi des Lyoko guerrier ?
-Q2 : Il était une fois ... : Comment s'appelle le vieux à la barbe blanche dans la série ? 
-Q3 : Miraculous Ladybug : Dans quelle ville se passe la série ?
+Q2 : Il était une fois ... : Comment s'appelle le vieux à la barbe blanche dans la serie ? 
+Q3 : Miraculous Ladybug : Dans quelle ville se passe la serie ?
 Q4 : Oggy et les cafards : De quelle couleur sont les trois cafards ?
 Q5 : Les Ratz : Qui doublent les deux rats Rapido et Razmo ?
-Q6 : Ulysse 31 : Quand se passe la série ?
-Q7 : Les mystérieuses cités d'or : Comment fonctionne le Grand Condor ?
+Q6 : Ulysse 31 : Quand se passe la serie ?
+Q7 : Les mystérieuses cites d'or : Comment fonctionne le Grand Condor ?
 Q8 : Dans quelle série peut-on retrouver la famille Dotcom dont font partie Blog, Spam, Web et Url ?
-Q9 : Comment s'appelle l'équipe d'agent du Whoop menez par Jerry ?
+Q9 : Comment s'appelle l'equipe d'agent du Whoop menez par Jerry ?
 Menu
 Famille
-Q1 : Quel âge a Papi ?
-Q2 : Quel est le prénom de Mamie ?
-Q3 : Où se sont mariées Sophie et Christophe ?
-Q4 : Quel pays ont visité Alice et Julie, mais pas en même temps ?
+Q1 : Quel age a Papi ?
+Q2 : Quel est le prenom de Mamie ?
+Q3 : Ou se sont mariees Sophie et Christophe ?
+Q4 : Quel pays ont visite Alice et Julie, mais pas en meme temps ?
 Q5 : Où sont allés Agnes et JC lors de leurs dernières vacances ?
 Q6 : Citez moi trois theme de spectacle de danse moderne jazz : 
-Q7 : Quel pays ont visité Denis et Marie Laure l’an dernier ? 
-Q8 : Citez moi deux sports qu’on pratiqué - ou pratique toujours - Adrien et/ou Thomas ? 
-Q9 : En quelle année a été célébrée la dernière communion dans la famille ?
+Q7 : Quel pays ont visite Denis et Marie Laure l’an dernier ? 
+Q8 : Citez moi deux sports qu’ont pratique - ou pratique toujours - Adrien et/ou Thomas ? 
+Q9 : En quelle annee a ete celebree la derniere communion dans la famille ?
 Menu
 1969
-Q1 : Donnez les noms de trois membres de la famille née en 1969 ? 
+Q1 : Donnez les noms de trois membres de la famille nee en 1969 ? 
 Q2 : Le 21 juillet 1969, l’homme fait ses premiers pas sur la lune. Donnez le nom des astronautes de la mission Apollo 11. 
-Q3 : Qui est élu président des Français en 1969 ? 
+Q3 : Qui est elu président des Français en 1969 ? 
 Q4 : La bataille de Bogside, en Irlande du Nord, dura trois jours, qui opposait-t-elle ? 
 Q5 : Quel pays abolie la peine de mort en 1969 ? 
-Q6 : Citez trois films dans lesquels a joué l’acteur Jack Black.
+Q6 : Citez trois films dans lesquels a joue l’acteur Jack Black.
 Q7 : Citez trois chansons de Patrick Fiori. 
-Q8 : Que représentent les “Emeutes de Stonewall” qui ont eu lieu à New York en 1969 ?
-Q9 : Quelle série d’animation mettant en scène de jeunes enquêteurs accompagnés de leur chien peureux est diffusée pour la première fois en 1969 ? 
+Q8 : Que representent les “Emeutes de Stonewall” qui ont eu lieu à New York en 1969 ?
+Q9 : Quelle serie d’animation mettant en scene de jeunes enqueteurs accompagnes de leur chien peureux est diffusee pour la première fois en 1969 ? 
 Menu
 Hexagone
-Q1 : Combien de côtés possède un hexagone ? 
+Q1 : Combien de cetes possede un hexagone ? 
 Q2 : Il existe une voiture nommée HEXA, de quelle marque est-elle ? 
 Q3 : Dans le vieux parler Lyonnais, qu’est ce qu’un Gone ? 
-Q4 : Quel pays est surnommé l’hexagone ? 
-Q5 : Le système de nombre hexadécimal permet de compter en quelle base ? 
-Q6 : Combien de tome compte la série Gone écrite par l'Américain Michael Grant ? 
+Q4 : Quel pays est surnomme l’hexagone ? 
+Q5 : Le systeme de nombre hexadecimal permet de compter en quelle base ? 
+Q6 : Combien de tome compte la serie Gone ecrite par l'Americain Michael Grant ? 
 Q7 : Le panneau Stop est-il hexagonal ? 
-Q8 : Vrai ou faux, le terme Hexaprotodon (littéralement « qui a six incisives ») définit certaines espèces d'éléphants de mer. 
+Q8 : Vrai ou faux, le terme Hexaprotodon (litteralement « qui a six incisives ») definit certaines especes d'elephants de mer. 
 Q9 : Gone est un verbe anglais, donne moi son infinitif et sa forme verbale. 
 Addition
-Double réflexe
+Double reflexe
 Q1 : Denis
 Q2 : Arc
 Q3 : Champion
@@ -152,25 +152,25 @@ Q10 : Marie
 Addition
 Anglicismes
 Q1 : C’est un truc qui peut te sauver la vie si tu prends la voiture en aillant un peu trop bu. Ca marche aussi si c’est le gars dans la voiture d’en face qui a trop bu
-Q2 : c’est une coupe glacée composée de trois boules de glaces chocolat, vanille et fraise, de chantilly et d’un fruit de forme phallique.
+Q2 : c’est une coupe glacee composee de trois boules de glaces chocolat, vanille et fraise, de chantilly et d’un fruit de forme phallique.
 Q3 : C’est quand tu te fais voler ta voiture.
 Q4 : C’est comme une news mais en plus cool
-Q5 : C’est l'activité préférée des politiques sur TF1, mais c’est aussi une brioche Pasquier.
+Q5 : C’est l'activite preferee des politiques sur TF1, mais c’est aussi une brioche Pasquier.
 Q6 : C’est le gars qui vend des paquets de sucre dans la rue.
 Q7 : C’est McDonald a la coupe du monde, Coca Cola aux Jeux Olympique, et Mercedes sur le bateau de Mike Horn. 
-Q8 : C’est ce qui arrive quand tu regardes trop les réseaux sociaux alors que t’as du retard sur ta série préférée.
-Q9 : C’est quand t’as eu les yeux plus gros que le ventre au resto, et que faut pas gâcher.
-Q10 : On devrait plutôt dire déjeunette, grand petit déjeuner ou encore petit-déjeuner déjeuner.
+Q8 : C’est ce qui arrive quand tu regardes trop les reseaux sociaux alors que t’as du retard sur ta serie preferee.
+Q9 : C’est quand t’as eu les yeux plus gros que le ventre au resto, et que faut pas gacher.
+Q10 : On devrait plutot dire dejeunette, grand petit dejeuner ou encore petit-dejeuner dejeuner.
 Burger de la mort
 
 Q1 : Quelle est la couleur du cheval blanc d’Henri IV ?
 Q2 : Combien as-tu de main ? 
-Q3 : Où sommes-nous ?
-Q4 : Quelle est la première lettre de l’alphabet ?
+Q3 : Ou sommes-nous ?
+Q4 : Quelle est la premiere lettre de l’alphabet ?
 Q5 : Vrai ou faux, Thomas est le fils de Denis.
 Q6 : 2x2 ?
 Q7 : De quelle couleur sont les Stroumfs ? 
 Q8 : Es-tu blond ? 
 Q9 : Quel est mon nom ?
-Q10 : Penses-tu réussir cette épreuve ?
+Q10 : Penses-tu reussir cette épreuve ?
 

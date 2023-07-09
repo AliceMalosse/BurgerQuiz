@@ -21,27 +21,23 @@ class Epreuve :
         return 0
     
     def draw (self, gameCanvas) :
-        gameCanvas.create_text(753, 430,text=self.name, fill='#403CAC', font=('HorseshoesAndLemonade',40))
-        gameCanvas.create_text(753, 430,text=self.description, fill='#403CAC', font=('HorseshoesAndLemonade',40))
+        gameCanvas.create_text(753, 245,text=self.name, fill='#403CAC', font=('HorseshoesAndLemonade',50))
+        gameCanvas.create_text(753, 285,text=self.description, fill='#5B9BD5', font=('HorseshoesAndLemonade',30))
+        print (self.name)
         if self.name != 'Burger de la mort' :
             gameCanvas.create_text(753, 430,text=self.question[self.current_question], fill='#403CAC', font=('HorseshoesAndLemonade',40))
-        if self.name == "Nuggets" :
-            self.drawNuggets()
+        if self.name[0] == "N" :
+            self.drawNuggets(gameCanvas)
 
     def drawNuggets(self, gameCanvas) : 
-        gameCanvas.create_text(753, 430,text=self.question[self.current_question+1], fill='#403CAC', font=('HorseshoesAndLemonade',40))
-        gameCanvas.create_text(753, 430,text=self.question[self.current_question+2], fill='#403CAC', font=('HorseshoesAndLemonade',40))
-        gameCanvas.create_text(753, 430,text=self.question[self.current_question+3], fill='#403CAC', font=('HorseshoesAndLemonade',40))
-        gameCanvas.create_text(753, 430,text=self.question[self.current_question+4], fill='#403CAC', font=('HorseshoesAndLemonade',40))
+        gameCanvas.create_text(753, 450,text=self.question[self.current_question+1], fill='#5B9BD5', font=('HorseshoesAndLemonade',20))
+        gameCanvas.create_text(753, 460,text=self.question[self.current_question+2], fill='#403CAC', font=('HorseshoesAndLemonade',20))
+        gameCanvas.create_text(753, 470,text=self.question[self.current_question+3], fill='#5B9BD5', font=('HorseshoesAndLemonade',20))
+        gameCanvas.create_text(753, 480,text=self.question[self.current_question+4], fill='#403CAC', font=('HorseshoesAndLemonade',20))
 
     def update (self, gameState) :
         if self.current_question == (self.nbQuest or self.nbQuest*5) :
             self.state = "end"
-        if gameState.press_next == True and self.state == "started" :
-            self.current_question += 1
-            if self.name == "Nuggets" :
-                self.current_question += 4
-            gameState.press_next = False
 
 
 
@@ -77,6 +73,8 @@ class Questions :
                     i+=1
                 epreuve.set_question(list_question)
                 self.listEpreuve.append(epreuve)
+                #print(epreuve.name)
+                #print (self.listEpreuve)
 
     def update (self, gameState) :
         self.listEpreuve[self.currentEpreuve].update(gameState)
@@ -86,5 +84,12 @@ class Questions :
             else :
                 self.currentEpreuve += 1
 
+    def next_question (self, ) :
+        self.listEpreuve[self.currentEpreuve].current_question += 1
+        if self.listEpreuve[self.currentEpreuve].name[0] == "N" :
+            self.listEpreuve[self.currentEpreuve].current_question += 4
 
+
+    def draw (self, gameCanvas) :
+        self.listEpreuve[self.currentEpreuve].draw(gameCanvas)
         

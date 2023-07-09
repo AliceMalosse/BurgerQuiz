@@ -21,7 +21,6 @@ def gameLoop(mainWindow, gameState):
             gameState.teamList[i].nb_miam==25
 
 
-
     #DISPLAYING STUFF
     mainWindow.gameCanvas.updateCanvas(gameState)
 

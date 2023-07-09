@@ -25,7 +25,9 @@ class GameCanvas(Canvas):
     #Main drawing function. Calls all the other entity related draw function
     def updateCanvas(self, gameState):
         self.delete('all')
-        self.textNewGame=self.create_text(90,763,text='New Game :', fill='red', font=('HorseshoesAndLemonade',20))
+        self.textNewGame=self.create_text(90,763,text='Quiz :', fill='red', font=('HorseshoesAndLemonade',20))
+        self.textNewGame=self.create_text(650,763,text='New Game :', fill='red', font=('HorseshoesAndLemonade',20))
+        
 
         if gameState.state=="started"  :
             #Logo
@@ -43,8 +45,9 @@ class GameCanvas(Canvas):
                 team.draw(self)
             
             #Question 
-            gameState.question.update(gameState)
             self.cadre = self.create_image(753, 430,image=self.ImCadre)
+            #gameState.question.update(gameState)
+            gameState.question.draw(self)
 
         elif gameState.state=='notStarted' or gameState.state=='endGame':
             self.logoQuiz = self.create_image(740,350,image=self.ImTitle)

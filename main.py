@@ -26,4 +26,4 @@ mainWindow.mainloop()
     #Positionner correctement les questions Nuggets
     #Ajouter des sauts a la lignes pour les questions longues
     #Justifier les textes a gauche
-    
+    #Programmer l'ajout de points aux equipes

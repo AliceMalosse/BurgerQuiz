@@ -19,6 +19,7 @@ class Equipe :
 
     def plusmiam (self, ) :
         self.nb_miam += 1
+        self.gif = self.init_draw()
 
     def get_nb_miam (self, ) :
         return self.nb_miam
@@ -36,6 +37,7 @@ class Equipe :
 
     def init_draw (self, ) :
         im = Image.open("./Ressources/"+self.name+".gif")
+        im.seek(self.nb_miam)
         im = im.resize((400, 224))
         return ImageTk.PhotoImage(im)
 

@@ -44,6 +44,7 @@ class MainWindow(Tk) :
 
     #detect board click and add keycode to function 
     def manageEvent (self, gameState):
-        self.bind('<KeyPress>', lambda event : gameState.canon.handleKeyboardEvent(event.keysym, "KEY_PRESS"))
-        self.bind('<KeyRelease>', lambda event : gameState.canon.handleKeyboardEvent(event.keysym, "KEY_RELEASE"))
+        self.bind('<Key>', lambda event : gameState.handleKeyboardEvent(event))
+        #self.bind('<KeyPress>', lambda event : gameState.canon.handleKeyboardEvent(event.keysym, "KEY_PRESS"))
+        #self.bind('<KeyRelease>', lambda event : gameState.canon.handleKeyboardEvent(event.keysym, "KEY_RELEASE"))
     

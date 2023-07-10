@@ -23,7 +23,7 @@ class Epreuve :
     
     def draw (self, gameCanvas) :
         gameCanvas.create_text(753, 245,text=self.name, fill='#403CAC', font=('HorseshoesAndLemonade',50))
-        gameCanvas.create_text(753, 285,text=self.description, fill='#5B9BD5', font=('HorseshoesAndLemonade',30))
+        gameCanvas.create_text(753, 285,text=self.description, fill='#5B9BD5', font=('HorseshoesAndLemonade',25))
         if self.name[0] == "N" :
             self.draw_quest(gameCanvas, 390, 310)
             self.drawNuggets(gameCanvas)
@@ -41,9 +41,6 @@ class Epreuve :
         gameCanvas.create_text(390, 630,text=self.question[self.current_question+4], fill='#403CAC', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
 
     def update (self, ) :
-        print ("update epreuve")
-        print ("current = ",self.current_question)
-        print ("total = ",self.nbQuest)
         if self.current_question == self.nbQuest or self.current_question == self.nbQuest*5 :
             self.state = "end"
 
@@ -81,8 +78,6 @@ class Questions :
                     i+=1
                 epreuve.set_question(list_question)
                 self.listEpreuve.append(epreuve)
-                #print(epreuve.name)
-                #print (self.listEpreuve)
 
     def update (self, gameState) :
         self.listEpreuve[self.currentEpreuve].update()
@@ -91,6 +86,8 @@ class Questions :
                 gameState.state = 'end'
             else :
                 self.currentEpreuve += 1
+                if self.listEpreuve[self.currentEpreuve].name[0] != "M" :
+                    self.listEpreuve[self.currentEpreuve].state = "started"
 
     def next_question (self, ) :
         self.listEpreuve[self.currentEpreuve].current_question += 1
@@ -99,5 +96,21 @@ class Questions :
 
 
     def draw (self, gameCanvas) :
-        self.listEpreuve[self.currentEpreuve].draw(gameCanvas)
+        if self.listEpreuve[self.currentEpreuve].name[0] == "M" and self.listEpreuve[self.currentEpreuve].state == "notStarted" :
+            #Draw the list of menu
+            gameCanvas.create_text(753, 245,text="Menus", fill='#403CAC', font=('HorseshoesAndLemonade',50))
+            gameCanvas.create_text(390, 300,text=self.menu[0], fill='#5B9BD5', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
+            gameCanvas.create_text(390, 370,text=self.menu[1], fill='#5B9BD5', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
+            gameCanvas.create_text(390, 440,text=self.menu[2], fill='#5B9BD5', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
+            gameCanvas.create_text(390, 510,text=self.menu[3], fill='#5B9BD5', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
+            gameCanvas.create_text(390, 580,text=self.menu[4], fill='#5B9BD5', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
+
+            #Manage choosing menu
+            nb_menu = 1
+            #Start the chosen menu
+            self.currentEpreuve = nb_menu + 2
+            self.listEpreuve[self.currentEpreuve].state = "started"
+            self.listEpreuve[self.currentEpreuve].draw(gameCanvas)
+        else :
+            self.listEpreuve[self.currentEpreuve].draw(gameCanvas)
         

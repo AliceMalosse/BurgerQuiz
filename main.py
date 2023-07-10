@@ -23,5 +23,5 @@ mainWindow.manageEvent(gameState)
 mainWindow.mainloop()
 
 #TODO : 
-    #Programmer l'ajout de points aux equipes
+    #Ajouter les conditions de victoire -> skip a l'ecran de burger de la mort
     #Programmer le choix des menus

@@ -42,5 +42,25 @@ class GameState() :
     def update(self, ) :
         self.question.update(self)
 
-    
-    
+    def handleKeyboardEvent (self, event) :
+        key = event.char
+        if key == "k" :
+            try :
+                self.teamList[0].plusmiam()
+            except :
+                print ("No team Ketchup")
+        elif key == "m" :
+            try :
+                self.teamList[1].plusmiam()
+            except :
+                print ("No team Mayo")
+        elif key == "b" :
+            try :
+                self.teamList[2].plusmiam()
+            except :
+                print ("No team BBQ")
+        elif key == "C" :
+            try :
+                self.teamList[3].plusmiam()
+            except :
+                print ("No team Creamy")    

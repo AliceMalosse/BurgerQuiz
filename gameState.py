@@ -37,8 +37,10 @@ class GameState() :
             self.question = Questions("./Ressources/additionPlus.txt")
 
     def next_question(self,) :
-        print ("next - GameState")
         self.question.next_question()
+
+    def update(self, ) :
+        self.question.update(self)
 
     
     

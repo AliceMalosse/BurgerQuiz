@@ -46,7 +46,7 @@ class GameCanvas(Canvas):
             
             #Question 
             self.cadre = self.create_image(753, 430,image=self.ImCadre)
-            #gameState.question.update(gameState)
+            gameState.update()
             gameState.question.draw(self)
 
         elif gameState.state=='notStarted' or gameState.state=='endGame':

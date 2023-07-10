@@ -18,6 +18,7 @@ class Epreuve :
         
     def set_question (self, list) :
         self.question = list
+        self.nbQuest = len(self.question)
         return 0
     
     def draw (self, gameCanvas) :
@@ -39,8 +40,11 @@ class Epreuve :
         gameCanvas.create_text(390, 560,text=self.question[self.current_question+3], fill='#5B9BD5', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
         gameCanvas.create_text(390, 630,text=self.question[self.current_question+4], fill='#403CAC', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
 
-    def update (self, gameState) :
-        if self.current_question == (self.nbQuest or self.nbQuest*5) :
+    def update (self, ) :
+        print ("update epreuve")
+        print ("current = ",self.current_question)
+        print ("total = ",self.nbQuest)
+        if self.current_question == self.nbQuest or self.current_question == self.nbQuest*5 :
             self.state = "end"
 
 
@@ -81,7 +85,7 @@ class Questions :
                 #print (self.listEpreuve)
 
     def update (self, gameState) :
-        self.listEpreuve[self.currentEpreuve].update(gameState)
+        self.listEpreuve[self.currentEpreuve].update()
         if self.listEpreuve[self.currentEpreuve].state == 'end' : 
             if self.listEpreuve[self.currentEpreuve].name == 'Burger de la mort' :
                 gameState.state = 'end'

@@ -24,3 +24,4 @@ mainWindow.mainloop()
 
 #TODO : 
     #Programmer l'ajout de points aux equipes
+    #Programmer le choix des menus

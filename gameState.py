@@ -44,6 +44,8 @@ class GameState() :
 
     def handleKeyboardEvent (self, event) :
         key = event.char
+        print(key, 'is pressed')
+        #Add point to teams command
         if key == "k" :
             try :
                 self.teamList[0].plusmiam()
@@ -59,8 +61,31 @@ class GameState() :
                 self.teamList[2].plusmiam()
             except :
                 print ("No team BBQ")
-        elif key == "C" :
+        elif key == "c" :
             try :
                 self.teamList[3].plusmiam()
             except :
                 print ("No team Creamy")    
+        #Dealing with menu interface command
+        elif key == "s" :
+            try :
+                self.question.currentEpreuve = 8
+            except :
+                print ("Error in skipping Menu")
+        elif key == "e" :
+            try : 
+                self.question.currentEpreuve = 3
+                self.question.listEpreuve[self.question.currentEpreuve].state = "notStarted"
+            except : 
+                "Error : Couldn't return to menu choice"
+        #Choosing menu command
+        elif key == "1" :
+            self.question.choose_menu(1)
+        elif key == "2" :
+            self.question.choose_menu(2)
+        elif key == "3" :
+            self.question.choose_menu(3)
+        elif key == "4" :
+            self.question.choose_menu(4)
+        elif key == "5" :
+            self.question.choose_menu(5)

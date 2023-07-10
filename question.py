@@ -23,17 +23,16 @@ class Epreuve :
     def draw (self, gameCanvas) :
         gameCanvas.create_text(753, 245,text=self.name, fill='#403CAC', font=('HorseshoesAndLemonade',50))
         gameCanvas.create_text(753, 285,text=self.description, fill='#5B9BD5', font=('HorseshoesAndLemonade',30))
-        print (self.name)
-        if self.name != 'Burger de la mort' :
-            gameCanvas.create_text(753, 430,text=self.question[self.current_question], fill='#403CAC', font=('HorseshoesAndLemonade',40))
+        if self.name[0] != 'B' :
+            gameCanvas.create_text(400, 310,text=self.question[self.current_question], fill='#403CAC', font=('HorseshoesAndLemonade',30), anchor='nw')
         if self.name[0] == "N" :
             self.drawNuggets(gameCanvas)
 
     def drawNuggets(self, gameCanvas) : 
-        gameCanvas.create_text(753, 450,text=self.question[self.current_question+1], fill='#5B9BD5', font=('HorseshoesAndLemonade',20))
-        gameCanvas.create_text(753, 460,text=self.question[self.current_question+2], fill='#403CAC', font=('HorseshoesAndLemonade',20))
-        gameCanvas.create_text(753, 470,text=self.question[self.current_question+3], fill='#5B9BD5', font=('HorseshoesAndLemonade',20))
-        gameCanvas.create_text(753, 480,text=self.question[self.current_question+4], fill='#403CAC', font=('HorseshoesAndLemonade',20))
+        gameCanvas.create_text(400, 400,text=self.question[self.current_question+1], fill='#5B9BD5', font=('HorseshoesAndLemonade',25), anchor='nw')
+        gameCanvas.create_text(400, 450,text=self.question[self.current_question+2], fill='#403CAC', font=('HorseshoesAndLemonade',25), anchor='nw')
+        gameCanvas.create_text(400, 500,text=self.question[self.current_question+3], fill='#5B9BD5', font=('HorseshoesAndLemonade',25), anchor='nw')
+        gameCanvas.create_text(400, 550,text=self.question[self.current_question+4], fill='#403CAC', font=('HorseshoesAndLemonade',25), anchor='nw')
 
     def update (self, gameState) :
         if self.current_question == (self.nbQuest or self.nbQuest*5) :

@@ -15,7 +15,7 @@ A : Le requin-citron.
 B : Le requin-fraise.
 C : Le requin-banane.
 D : Le requin-chocolat-pistache.
-Q4 : En 1945 un groupe clandestin de combattants juifs fut fonde pour punir les criminels de guerre nazis. Quel etait leur nom ?
+Q4 : En 1945 un groupe de combattants juifs fut fonde pour punir les criminels de guerre nazis. Quel etait leur nom ?
 A : Les Avengers.
 B : La Justice League.
 C : Les Inglorious Basterds.
@@ -55,7 +55,7 @@ A : Rome
 B : Palerme
 C : Naples
 D : Pise
-Q12 : Quel organe du corps humain est capable de se regenerer en quelques mois si une partie lui a ete enlevee ? 
+Q12 : Quel organe peut se regenerer en quelques mois si une partie lui a ete enlevee ? 
 A : Les reins
 B : Le pancreas
 C : La thyroide

@@ -24,4 +24,8 @@ mainWindow.mainloop()
 
 #TODO : 
     #Ajouter les conditions de victoire -> skip a l'ecran de burger de la mort
-    #Programmer le choix des menus
+    #Barrer les menus deja choisi
+    #Supprimer deux menus
+    #Revoir le nombre de question
+    #Modifier les fichiers txt
+    #Modifier les indices dans les fonctions de choix de menu

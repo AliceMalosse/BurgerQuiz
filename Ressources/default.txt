@@ -1,0 +1,176 @@
+Nuggets
+Pas de sous-titre
+Q1 :  Question 1
+A : Reponse A
+B : Reponse B
+C : Reponse C
+D : Reponse D
+Q2 : Question 2
+A : Reponse A
+B : Reponse B
+C : Reponse C
+D : Reponse D
+Q3 :  Question 3
+A : Reponse A
+B : Reponse B
+C : Reponse C
+D : Reponse D
+Q4 : Question 4
+A : Reponse A
+B : Reponse B
+C : Reponse C
+D : Reponse D
+Q5 :  Question 5
+A : Reponse A
+B : Reponse B
+C : Reponse C
+D : Reponse D
+Q6 : Question 6
+A : Reponse A
+B : Reponse B
+C : Reponse C
+D : Reponse D
+Q7 :  Question 7
+A : Reponse A
+B : Reponse B
+C : Reponse C
+D : Reponse D
+Q8 : Question 8
+A : Reponse A
+B : Reponse B
+C : Reponse C
+D : Reponse D
+Q9 :  Question 9
+A : Reponse A
+B : Reponse B
+C : Reponse C
+D : Reponse D
+Q10 : Question 10
+A : Reponse A
+B : Reponse B
+C : Reponse C
+D : Reponse D
+Q11 :  Question 11
+A : Reponse A
+B : Reponse B
+C : Reponse C
+D : Reponse D
+Q12 : Question 12
+A : Reponse A
+B : Reponse B
+C : Reponse C
+D : Reponse D
+Sel ou poivre
+A, B ou les deux ?
+Q1 : Question 1
+Q2 : Question 2
+Q3 : Question 3
+Q4 : Question 4 
+Q5 : Question 5
+Q6 : Question 6
+Sel ou poivre
+A, B ou les deux ?
+Q1 : Question 1
+Q2 : Question 2
+Q3 : Question 3
+Q4 : Question 4 
+Q5 : Question 5
+Q6 : Question 6
+Menus
+Theme 1
+Theme 2
+Theme 3
+Theme 4
+Theme 5
+Menu
+Theme 1
+Q1 : Question 1
+Q2 : Question 2
+Q3 : Question 3
+Q4 : Question 4 
+Q5 : Question 5
+Q6 : Question 6
+Q7 : Question 7
+Q8 : Question 8
+Q9 : Question 9
+Menu
+Theme 2
+Q1 : Question 1
+Q2 : Question 2
+Q3 : Question 3
+Q4 : Question 4 
+Q5 : Question 5
+Q6 : Question 6
+Q7 : Question 7
+Q8 : Question 8
+Q9 : Question 9
+Menu
+Theme 3
+Q1 : Question 1
+Q2 : Question 2
+Q3 : Question 3
+Q4 : Question 4 
+Q5 : Question 5
+Q6 : Question 6
+Q7 : Question 7
+Q8 : Question 8
+Q9 : Question 9
+Menu
+Theme 4
+Q1 : Question 1
+Q2 : Question 2
+Q3 : Question 3
+Q4 : Question 4 
+Q5 : Question 5
+Q6 : Question 6
+Q7 : Question 7
+Q8 : Question 8
+Q9 : Question 9
+Menu
+Theme 5
+Q1 : Question 1
+Q2 : Question 2
+Q3 : Question 3
+Q4 : Question 4 
+Q5 : Question 5
+Q6 : Question 6
+Q7 : Question 7
+Q8 : Question 8
+Q9 : Question 9
+Addition
+Theme 1
+Q1 : Question 1
+Q2 : Question 2
+Q3 : Question 3
+Q4 : Question 4 
+Q5 : Question 5
+Q6 : Question 6
+Q7 : Question 7
+Q8 : Question 8
+Q9 : Question 9
+Q10 : Question 10
+Addition
+Theme 2
+Q1 : Question 1
+Q2 : Question 2
+Q3 : Question 3
+Q4 : Question 4 
+Q5 : Question 5
+Q6 : Question 6
+Q7 : Question 7
+Q8 : Question 8
+Q9 : Question 9
+Q10 : Question 10
+Burger de la mort
+Pas de sous-titre
+Q1 : Question 1
+Q2 : Question 2
+Q3 : Question 3
+Q4 : Question 4 
+Q5 : Question 5
+Q6 : Question 6
+Q7 : Question 7
+Q8 : Question 8
+Q9 : Question 9
+Q10 : Question 10
+

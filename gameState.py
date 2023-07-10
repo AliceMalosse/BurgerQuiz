@@ -34,7 +34,8 @@ class GameState() :
         elif ind == 2 :
             self.question = Questions("./Ressources/editionEte2023-quiz2.txt")
         else : 
-            self.question = Questions("./Ressources/additionPlus.txt")
+            #self.question = Questions("./Ressources/additionPlus.txt")
+            self.question = Questions("./Ressources/default.txt")
 
     def next_question(self,) :
         self.question.next_question()

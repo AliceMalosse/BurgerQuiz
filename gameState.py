@@ -66,6 +66,7 @@ class GameState() :
                 self.teamList[3].plusmiam()
             except :
                 print ("No team Creamy") 
+        #Remove point to teams commands
         elif key == "K" :
             try :
                 self.teamList[0].penalite()
@@ -86,11 +87,15 @@ class GameState() :
                 self.teamList[3].penalite()
             except :
                 print ("No team Creamy") 
+        # Next question command
         elif key == "n" :
             try : 
                 self.next_question()
             except : 
                 print("'n' command do not work, try to press the 'Next' Button to change question.")
+        #Jump to the Burger de la mort part
+        elif key == "z" :
+            self.question.currentEpreuve = len(self.question.listEpreuve) - 1
         #Dealing with menu interface command
         elif key == "s" :
             try :

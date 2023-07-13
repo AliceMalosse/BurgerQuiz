@@ -18,8 +18,8 @@ def gameLoop(mainWindow, gameState):
     #winning condition
     if gameState.state == "started":
         for i in range(gameState.nbTeam): 
-            gameState.teamList[i].nb_miam==25
-
+            if gameState.teamList[i].nb_miam==25 : 
+                gameState.question.currentEpreuve = len(gameState.question.listEpreuve) - 1
 
     #DISPLAYING STUFF
     mainWindow.gameCanvas.updateCanvas(gameState)

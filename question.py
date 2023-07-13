@@ -94,6 +94,10 @@ class Questions :
         if self.listEpreuve[self.currentEpreuve].name[0] == "N" :
             self.listEpreuve[self.currentEpreuve].current_question += 4
 
+    def previous_question (self, ) :
+        self.listEpreuve[self.currentEpreuve].current_question -= 1
+        if self.listEpreuve[self.currentEpreuve].name[0] == "N" :
+            self.listEpreuve[self.currentEpreuve].current_question -= 4
 
     def draw (self, gameCanvas) :
         if self.listEpreuve[self.currentEpreuve].name[0] == "M" and self.listEpreuve[self.currentEpreuve].state == "notStarted" :

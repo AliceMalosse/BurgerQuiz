@@ -39,6 +39,9 @@ class GameState() :
 
     def next_question(self,) :
         self.question.next_question()
+    
+    def previous_question (self, ) :
+        self.question.previous_question()
 
     def update(self, ) :
         self.question.update(self)
@@ -87,12 +90,17 @@ class GameState() :
                 self.teamList[3].penalite()
             except :
                 print ("No team Creamy") 
-        # Next question command
+        # Change question command
         elif key == "n" :
             try : 
                 self.next_question()
             except : 
                 print("'n' command do not work, try to press the 'Next' Button to change question.")
+        elif key == "N" :
+            try : 
+                self.previous_question()
+            except : 
+                print("No previous question")
         #Jump to the Burger de la mort part
         elif key == "z" :
             self.question.currentEpreuve = len(self.question.listEpreuve) - 1

@@ -20,42 +20,27 @@ A : Il disperse ses crottes avec sa queue pour marquer son territoire.
 B : Il doit arrêter toute activite pour ne faire que ça, tellement c’est long et penible.
 C : Il expulse un gros rondin d’un coup et c’est assez spectaculaire.
 D : Il ne fait jamais caca, d’ou sa taille.
-Q5 : Lequel de ces magazines flippants n'existe pas ?
-A : Crimes magazine.
-B : Menaces actuelles.
-C : Commando magazine.
-D : Enquetes sexuelles.
-Q6 : Laquelle de ces informations concernant les reseaux sociaux est vraie ?
+Q5 : Laquelle de ces informations concernant les reseaux sociaux est vraie ?
 A : Snapchat conserve toutes vos photos et videos et peut vous extorquer comme bon lui semble.
 B : Facebook peut enregistrer des sons et des videos à partir de votre téléphone sans votre consentement.
 C : Chaque tweet poste aux États-Unis est verifie par le FBI.
 D : Personne n’a jamais trouve de boulot grace à Linkedin.
-Q7 : Qui est Barbara Millicent Robert ?
+Q6 : Qui est Barbara Millicent Robert ?
 A : Une top model Hongroise
 B : Une macaque 
 C : Une poupee
 D : Le nom de la premiere femme a avoir obtenue son permis
-Q8 : En raison de la dilatation thermique, en été la Tour Eiffel grandit de : 
+Q7 : En raison de la dilatation thermique, en été la Tour Eiffel grandit de : 
 A : 15 cm
 B : 40 cm
 C : 1 m
 D : 3 m
-Q9 : Quel dieu n’est pas l’enfant d'Ares et d’Aphrodite ?
-A : Phobos
-B : Harmonie
-C : Eros
-D : Deimos
-Q10 : Que vend-t-on dans le célèbre magasin Laduree à Paris ?
-A : Du the
-B : Des Macarons
-C : Des bonbon artisanaux
-D : Du vin en provenance du domaine de Laduree
-Q11 : A quelle famille les hommes appartiennent-ils ?
+Q8 : A quelle famille les hommes appartiennent-ils ?
 A : Les Homosapientum
 B : Les Primates
 C : Les Homonoides
 D : Les Hominides
-Q12 : Qu’est-ce qu’un canistrelli ? 
+Q9 : Qu’est-ce qu’un canistrelli ? 
 A : Un biscuit a l'abricot de Florence
 B : Un biscuit au miel de Sardaigne
 C : Un biscuit sale de la région de Venise
@@ -77,44 +62,21 @@ Q4 : Date du 11eme siecle ?
 Q5 : Sacrifie les brebis ? 
 Q6 : Vient de France ? 
 Menus
-Disney
-Dessin Animes Francais
-Famille
+Disney & Pixar
 1969
-Hexagone
+Famille
+Jeux Video
 Menu
 Disney
-Q1 : Combien de sœurs a Ariel ?
-Q2 : Quelle princesse se bat avec une poele ?
+Q1 : Comment s'appelle l'ame que va aider Joe dans le film Soul ?
+Q2 : De quelle couleur est la carroserie de martin dans Cars ?
 Q3 : Quel est le reve d'Olaf dans La reine des neiges ?
-Q4 : Donnez-moi trois films Disney (hors Pixar) qui n'a pas son equivalent Live-action ?
+Q4 : Au choix : donnez les noms des parents de Nemo ou les noms complets des deux montres dans Montres et Cie.
 Q5 : Sous quelle presidence a ete construit le parc DisneyLand Paris ?
-Q6 : Citez moi une serie Disney Channel
-Q7 : Citez trois personnages Disney qui ne soit ni humain (sorciere, fee et nain compris) ni animal - ou qui ne le deviennent.
+Q6 : Citez trois serie Disney Channel.
+Q7 : Citez trois personnages qui ne soit ni humain, ni animal - ou qui ne le deviennent.
 Q8 : Un film des studios Disney qui se deroule en France.
 Q9 : Citez cinq personnages Disney qui meurent durant un film
-Menu
-Dessins animes français  
-Q1 : Code Lyoko : Comment s'appelle l'ennemi des Lyoko guerrier ?
-Q2 : Il était une fois ... : Comment s'appelle le vieux à la barbe blanche dans la serie ? 
-Q3 : Miraculous Ladybug : Dans quelle ville se passe la serie ?
-Q4 : Oggy et les cafards : De quelle couleur sont les trois cafards ?
-Q5 : Les Ratz : Qui doublent les deux rats Rapido et Razmo ?
-Q6 : Ulysse 31 : Quand se passe la serie ?
-Q7 : Les mystérieuses cites d'or : Comment fonctionne le Grand Condor ?
-Q8 : Dans quelle série peut-on retrouver la famille Dotcom dont font partie Blog, Spam, Web et Url ?
-Q9 : Comment s'appelle l'equipe d'agent du Whoop menez par Jerry ?
-Menu
-Famille
-Q1 : Quel age a Papi ?
-Q2 : Quel est le prenom de Mamie ?
-Q3 : Ou se sont mariees Sophie et Christophe ?
-Q4 : Quel pays ont visite Alice et Julie, mais pas en meme temps ?
-Q5 : Où sont allés Agnes et JC lors de leurs dernières vacances ?
-Q6 : Citez moi trois theme de spectacle de danse moderne jazz : 
-Q7 : Quel pays ont visite Denis et Marie Laure l’an dernier ? 
-Q8 : Citez moi deux sports qu’ont pratique - ou pratique toujours - Adrien et/ou Thomas ? 
-Q9 : En quelle annee a ete celebree la derniere communion dans la famille ?
 Menu
 1969
 Q1 : Donnez les noms de trois membres de la famille nee en 1969 ? 
@@ -127,16 +89,27 @@ Q7 : Citez trois chansons de Patrick Fiori.
 Q8 : Que representent les “Emeutes de Stonewall” qui ont eu lieu à New York en 1969 ?
 Q9 : Quelle serie d’animation mettant en scene de jeunes enqueteurs accompagnes de leur chien peureux est diffusee pour la première fois en 1969 ? 
 Menu
-Hexagone
-Q1 : Combien de cetes possede un hexagone ? 
-Q2 : Il existe une voiture nommée HEXA, de quelle marque est-elle ? 
-Q3 : Dans le vieux parler Lyonnais, qu’est ce qu’un Gone ? 
-Q4 : Quel pays est surnomme l’hexagone ? 
-Q5 : Le systeme de nombre hexadecimal permet de compter en quelle base ? 
-Q6 : Combien de tome compte la serie Gone ecrite par l'Americain Michael Grant ? 
-Q7 : Le panneau Stop est-il hexagonal ? 
-Q8 : Vrai ou faux, le terme Hexaprotodon (litteralement « qui a six incisives ») definit certaines especes d'elephants de mer. 
-Q9 : Gone est un verbe anglais, donne moi son infinitif et sa forme verbale. 
+Famille
+Q1 : Quel age a Papi ?
+Q2 : Quel est le prenom de Mamie ?
+Q3 : Ou se sont mariees Sophie et Christophe ?
+Q4 : Quel pays ont visite Alice et Julie, mais pas en meme temps ?
+Q5 : Où sont allés Agnes et JC lors de leurs dernières vacances ?
+Q6 : Citez moi trois theme de spectacle de danse moderne jazz : 
+Q7 : Quel pays ont visite Denis et Marie Laure l’an dernier ? 
+Q8 : Citez moi deux sports qu’ont pratique - ou pratique toujours - Adrien et/ou Thomas ? 
+Q9 : En quelle annee a ete celebree la derniere communion dans la famille ?
+Menu
+Jeux Video
+Q1 : Citez trois jeux Zelda
+Q2 : En quoi consiste le jeu Only Up ? 
+Q3 : Qui est Toru Iwatani ?
+Q4 : Quelle est la fin officiel du jeu Minecraft ?
+Q5 : Selon la definition du jeu video, a quand estime-t-on le debut de l’histoire du jeu video ?
+Q6 : A l’heure actuelle, combien de jeux Super Mario Galaxy existe-t-il ? 
+Q7 : Quelle est la derniere generation de jeux Pokemon ?
+Q8 : Quelle est la console de jeu la plus vendue au monde ?
+Q9 : En 2013 est sortie la derniere generation du jeu GTA, GTA5. Mais que signifie l’acronyme GTA communément utilise pour nommer le jeu ?
 Addition
 Double reflexe
 Q1 : Denis

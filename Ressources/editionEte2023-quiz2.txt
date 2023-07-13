@@ -1,65 +1,50 @@
 Nuggets
 
-Q1 : Quels sont les animaux les plus presents sur Terre ?
-A : Les vers de terre.
-B : Les fourmis.
-C : Les mouches.
-D : Les elephants, mais ils se cachent.
-Q2 : Dans l'Antiquite, sur quoi les romains pretaient serment ?
+Q1 : Dans l'Antiquite, sur quoi les romains pretaient serment ?
 A : Une Bible, comme tout le monde.
 B : Les lauriers de Cesar.
 C : Un album d’Asterix.
 D : Leurs testicules.
-Q3 : Lequel de ces requins existe-t-vraiment ?
+Q2 : Lequel de ces requins existe-t-vraiment ?
 A : Le requin-citron.
 B : Le requin-fraise.
 C : Le requin-banane.
 D : Le requin-chocolat-pistache.
-Q4 : En 1945 un groupe de combattants juifs fut fonde pour punir les criminels de guerre nazis. Quel etait leur nom ?
+Q3 : En 1945 un groupe de combattants juifs fut fonde pour punir les criminels de guerre nazis. Quel etait leur nom ?
 A : Les Avengers.
 B : La Justice League.
 C : Les Inglorious Basterds.
 D : Les Rabbins des Bois.
-Q5 : Pourquoi les flamants roses sont-ils roses ?
-A : Parce qu’ils sont roses, c’est comme ça. Est-ce qu’on demande a Eric Zemmour pourquoi il est blanc?
-B : Parce qu’ils bouffent trop de crevettes.
-C : Parce que le plumage, blanc d’origine, absorbe les rayons du soleil mais ne restitue que la couleur rose.
-D : Parce qu’ils sont hyper girly.
-Q6 : Que signifie l’acronyme PET ?
+Q4 : Que signifie l’acronyme PET ?
 A : Positron Emission Topography
 B : Polyterephtatalate d’ethylene
 C : Personal Electronic Transcriber
 D : Prout Extrêmement Toxique
-Q7 : Laquelle de ces propositions dont on est persuadés qu’elles n’existe pas, existe ?
+Q5 : Laquelle de ces propositions dont on est persuadés qu’elles n’existe pas, existe ?
 A : La planete Pandora, du film Avatar
 B : Le Mordor, du Seigneur des Anneaux
 C : La planete Tatooine, de Star Wars
 D : L’amie noire de Nadine Morano
-Q8 : Que s'est-il passe le 18 juin dernier ?
+Q6 : Que s'est-il passe le 18 juin dernier ?
 A : Un sous-marin et ses cinq passager c’est perdu en mer
 B : Le vice-president du conglomerat Ergo a ete tue
 C : L'epave du titanic a ete endommage par un groupe de cetaces
 D : Le youtuber Amixem a fait un feat avec Mr. Beast
-Q9 : Laquelle de ses proposition n’est pas un slogan utiliser par l’entreprise Bosch : 
+Q7 : Laquelle de ses proposition n’est pas un slogan utiliser par l’entreprise Bosch : 
 A : Like a Bosch
 B : Invented for life
 C : We are Bosch
 D : Part of your life, part of tomorrow
-Q10 : Quelle est l'etymologie du mot barbecue ? Cela vient probablement …
+Q8 : Quelle est l'etymologie du mot barbecue ? Cela vient probablement …
 A : De l’arawak barbacoa
 B : De l’ancien francais barbe a queue
 C : De l’anglais américain barbecue, grill
 D : Du malais barobaco
-Q11 : Dans quelle ville italienne la pizza a-t-elle ete inventee ? 
+Q9 : Dans quelle ville italienne la pizza a-t-elle ete inventee ? 
 A : Rome
 B : Palerme
 C : Naples
 D : Pise
-Q12 : Quel organe peut se regenerer en quelques mois si une partie lui a ete enlevee ? 
-A : Les reins
-B : Le pancreas
-C : La thyroide
-D : Le foie
 Sel ou poivre
 Alice, Alizee ou les deux ?
 Q1 : A visite la Corse ?
@@ -77,21 +62,21 @@ Q4 : A deja participe a une chasse à l'homme ?
 Q5 : A une serie qui porte son nom ? 
 Q6 : Son nom signifie “Porteur de lumiere”
 Menus
-Pixar
+Series animees francaise
 2000
-Jeux Video
 Noir & Blanc
 Blind test
 Menu
-Pixar
-Q1 : De quelle couleur est la carrosserie de Martin dans Cars ? 
-Q2 : Combien y a-t-il eu de films Toys Story ? 
-Q3 : Comment s’appelle l'ame que va aider Joe dans le film Soul ? 
-Q4 : Quel est le dernier film des studios Pixar ? 
-Q5 : Qui est Bruno, à qui l’on demande sans cesse de se taire ?
-Q6 : Dans le film Coco, que doit obtenir Miguel pour retourner dans le monde des vivants ? 
-Q7 : Combien d'annees se sont écoulées entre les deux films Les Indestructibles ? 
-Q9 : Au choix, donnez-moi le nom du pere de Nemo ou le nom des deux monstres de Montre et compagnie.
+Series animees français  
+Q1 : Code Lyoko : Comment s'appelle l'ennemi des Lyoko guerrier ?
+Q2 : Il était une fois ... : Comment s'appelle le vieux à la barbe blanche dans la serie ? 
+Q3 : Miraculous Ladybug : Dans quelle ville se passe la serie ?
+Q4 : Oggy et les cafards : De quelle couleur sont les trois cafards ?
+Q5 : Les Ratz : Qui doublent les deux rats Rapido et Razmo ?
+Q6 : Ulysse 31 : Quand se passe la serie ?
+Q7 : Les mystérieuses cites d'or : Comment fonctionne le Grand Condor ?
+Q8 : Dans quelle série peut-on retrouver la famille Dotcom dont font partie Blog, Spam, Web et Url ?
+Q9 : Comment s'appelle l'equipe d'agent du Whoop menez par Jerry ?
 Menu
 2000
 Q1 : Qu’est ce que le bug de l’an 2000 ? 
@@ -103,17 +88,6 @@ Q6 : Quel reseau de radios locales publiques françaises a ete cree en 2000 ?
 Q7 : Quel film obtient l’oscar du meilleur film en 2000 ? 
 Q8 : Pourquoi le macaque rhésus Tetra est-il celebre ? 
 Q9 : Dans quelle ville ont eu lieu les Jeux Olympique de 2000 ? 
-Menu
-Jeux Video
-Q1 : Citez trois jeux Zelda
-Q2 : En quoi consiste le jeu Only Up ? 
-Q3 : Qui est Toru Iwatani ?
-Q4 : Quelle est la fin officiel du jeu Minecraft ?
-Q5 : Selon la definition du jeu video, a quand estime-t-on le debut de l’histoire du jeu video ?
-Q6 : A l’heure actuelle, combien de jeux Super Mario Galaxy existe-t-il ? 
-Q7 : Quelle est la derniere generation de jeux Pokemon ?
-Q8 : Quelle est la console de jeu la plus vendue au monde ?
-Q9 : En 2013 est sortie la derniere generation du jeu GTA, GTA5. Mais que signifie l’acronyme GTA communément utilise pour nommer le jeu ?
 Menu
 Noir ou blanc ? 
 Q1 : Qu’est ce qui est noir quand il est propre et blanc quand il est sale ?

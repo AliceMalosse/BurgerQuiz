@@ -45,7 +45,6 @@ class GameState() :
 
     def handleKeyboardEvent (self, event) :
         key = event.char
-        print(key, 'is pressed')
         #Add point to teams command
         if key == "k" :
             try :

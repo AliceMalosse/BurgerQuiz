@@ -78,7 +78,6 @@ class Questions :
                     i+=1
                 epreuve.set_question(list_question)
                 self.listEpreuve.append(epreuve)
-                print (list_question)
 
     def update (self, gameState) :
         self.listEpreuve[self.currentEpreuve].update()

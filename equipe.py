@@ -15,12 +15,14 @@ class Equipe :
         self.pos = self.init_position()
         self.nb_miam = 0
         self.gif = self.init_draw()
-        self.new_gif = self.gif
+        #self.current_frame = self.new_draw()
+        #self.new_gif = False
         self.canvas = 0
 
     def plusmiam (self, ) :
         self.nb_miam += 1
-        self.new_gif = self.init_draw()
+        #self.new_gif = True
+        self.gif = self.init_draw()
 
     def get_nb_miam (self, ) :
         return self.nb_miam
@@ -37,16 +39,10 @@ class Equipe :
         return position
 
     def init_draw (self, ) :
-        im = Image.open("./Ressources/"+self.name+".gif")
-        im.seek(self.nb_miam)
+        path = "./Ressources/" + self.name + "/Diapositive" + str(self.nb_miam+1) + ".JPG"
+        im = Image.open(path)
         im = im.resize((400, 224))
         return ImageTk.PhotoImage(im)
 
     def draw (self, gameCanvas) : 
-        if self.gif != self.new_gif :
-            print ("draw new point")
-            self.gif = self.new_gif
-            gameCanvas.itemconfigure(self.canvas, image = self.new_gif)
-            self.new_gif = self.gif
-        else :
-            self.canvas = gameCanvas.create_image(self.pos[0], self.pos[1], image=self.gif)
+        self.canvas = gameCanvas.create_image(self.pos[0], self.pos[1], image=self.gif)

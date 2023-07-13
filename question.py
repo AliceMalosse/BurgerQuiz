@@ -22,23 +22,23 @@ class Epreuve :
         return 0
     
     def draw (self, gameCanvas) :
-        gameCanvas.create_text(753, 245,text=self.name, fill='#403CAC', font=('HorseshoesAndLemonade',50))
-        gameCanvas.create_text(753, 285,text=self.description, fill='#5B9BD5', font=('HorseshoesAndLemonade',25))
+        gameCanvas.create_text(753, 245,text=self.name, fill='#5B9BD5', font=('HorseshoesAndLemonade',50))
+        gameCanvas.create_text(753, 285,text=self.description, fill='#403CAC', font=('HorseshoesAndLemonade',25))
         if self.name[0] == "N" :
-            self.draw_quest(gameCanvas, 390, 310)
             self.drawNuggets(gameCanvas)
         elif self.name[0] != 'B' :
             self.draw_quest(gameCanvas, 390, 340)
 
     def draw_quest (self, gameCanvas, width, height) :
-        gameCanvas.create_text(width, height,text=self.question[self.current_question], fill='#403CAC', font=('Horseshoes',25), width=750, anchor='nw')
+        gameCanvas.create_text(width, height,text=self.question[self.current_question], fill='#5B9BD5', font=('Horseshoes',30), width=750, anchor='nw')
 
 
     def drawNuggets(self, gameCanvas) : 
-        gameCanvas.create_text(390, 420,text=self.question[self.current_question+1], fill='#5B9BD5', font=('Horseshoes',20), width=750, anchor='nw')
-        gameCanvas.create_text(390, 490,text=self.question[self.current_question+2], fill='#403CAC', font=('Horseshoes',20), width=750, anchor='nw')
-        gameCanvas.create_text(390, 560,text=self.question[self.current_question+3], fill='#5B9BD5', font=('Horseshoes',20), width=750, anchor='nw')
-        gameCanvas.create_text(390, 630,text=self.question[self.current_question+4], fill='#403CAC', font=('Horseshoes',20), width=750, anchor='nw')
+        gameCanvas.create_text(390, 310,text=self.question[self.current_question], fill='#5B9BD5', font=('Horseshoes',25), width=750, anchor='nw')
+        gameCanvas.create_text(390, 420,text=self.question[self.current_question+1], fill='#403CAC', font=('Horseshoes',20), width=750, anchor='nw')
+        gameCanvas.create_text(390, 490,text=self.question[self.current_question+2], fill='#5B9BD5', font=('Horseshoes',20), width=750, anchor='nw')
+        gameCanvas.create_text(390, 560,text=self.question[self.current_question+3], fill='#403CAC', font=('Horseshoes',20), width=750, anchor='nw')
+        gameCanvas.create_text(390, 630,text=self.question[self.current_question+4], fill='#5B9BD5', font=('Horseshoes',20), width=750, anchor='nw')
 
     def update (self, ) :
         if self.current_question == self.nbQuest or self.current_question == self.nbQuest*5 :
@@ -99,10 +99,10 @@ class Questions :
         if self.listEpreuve[self.currentEpreuve].name[0] == "M" and self.listEpreuve[self.currentEpreuve].state == "notStarted" :
             #Draw the list of menu
             gameCanvas.create_text(753, 245,text="Menus", fill='#403CAC', font=('HorseshoesAndLemonade',50))
-            gameCanvas.create_text(390, 300,text="1 : "+self.menu[0], fill='#5B9BD5', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
-            gameCanvas.create_text(390, 370,text="2 : "+self.menu[1], fill='#5B9BD5', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
-            gameCanvas.create_text(390, 440,text="3 : "+self.menu[2], fill='#5B9BD5', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
-            gameCanvas.create_text(390, 510,text="4 : "+self.menu[3], fill='#5B9BD5', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
+            gameCanvas.create_text(390, 310,text="1 : "+self.menu[0], fill='#5B9BD5', font=('Horseshoes',30), width=750, anchor='nw')
+            gameCanvas.create_text(390, 380,text="2 : "+self.menu[1], fill='#5B9BD5', font=('Horseshoes',30), width=750, anchor='nw')
+            gameCanvas.create_text(390, 450,text="3 : "+self.menu[2], fill='#5B9BD5', font=('Horseshoes',30), width=750, anchor='nw')
+            gameCanvas.create_text(390, 520,text="4 : "+self.menu[3], fill='#5B9BD5', font=('Horseshoes',30), width=750, anchor='nw')
         else :
             self.listEpreuve[self.currentEpreuve].draw(gameCanvas)
 

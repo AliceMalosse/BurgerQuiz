@@ -65,7 +65,27 @@ class GameState() :
             try :
                 self.teamList[3].plusmiam()
             except :
-                print ("No team Creamy")    
+                print ("No team Creamy") 
+        elif key == "K" :
+            try :
+                self.teamList[0].penalite()
+            except :
+                print ("No team Ketchup")
+        elif key == "M" :
+            try :
+                self.teamList[1].penalite()
+            except :
+                print ("No team Mayo")
+        elif key == "B" :
+            try :
+                self.teamList[2].penalite()
+            except :
+                print ("No team BBQ")
+        elif key == "C" :
+            try :
+                self.teamList[3].penalite()
+            except :
+                print ("No team Creamy") 
         elif key == "n" :
             try : 
                 self.next_question()

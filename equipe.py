@@ -15,17 +15,15 @@ class Equipe :
         self.pos = self.init_position()
         self.nb_miam = 0
         self.gif = self.init_draw()
-        #self.current_frame = self.new_draw()
-        #self.new_gif = False
         self.canvas = 0
 
     def plusmiam (self, ) :
         self.nb_miam += 1
-        #self.new_gif = True
         self.gif = self.init_draw()
 
-    def get_nb_miam (self, ) :
-        return self.nb_miam
+    def penalite (self, ) : 
+        self.nb_miam -= 1
+        self.gif = self.init_draw()        
     
     def init_position (self, ) :
         if self.name == "Ketchup" :

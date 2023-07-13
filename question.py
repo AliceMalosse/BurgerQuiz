@@ -31,14 +31,14 @@ class Epreuve :
             self.draw_quest(gameCanvas, 390, 340)
 
     def draw_quest (self, gameCanvas, width, height) :
-        gameCanvas.create_text(width, height,text=self.question[self.current_question], fill='#403CAC', font=('HorseshoesAndLemonade',25), width=750, anchor='nw')
+        gameCanvas.create_text(width, height,text=self.question[self.current_question], fill='#403CAC', font=('Horseshoes',25), width=750, anchor='nw')
 
 
     def drawNuggets(self, gameCanvas) : 
-        gameCanvas.create_text(390, 420,text=self.question[self.current_question+1], fill='#5B9BD5', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
-        gameCanvas.create_text(390, 490,text=self.question[self.current_question+2], fill='#403CAC', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
-        gameCanvas.create_text(390, 560,text=self.question[self.current_question+3], fill='#5B9BD5', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
-        gameCanvas.create_text(390, 630,text=self.question[self.current_question+4], fill='#403CAC', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
+        gameCanvas.create_text(390, 420,text=self.question[self.current_question+1], fill='#5B9BD5', font=('Horseshoes',20), width=750, anchor='nw')
+        gameCanvas.create_text(390, 490,text=self.question[self.current_question+2], fill='#403CAC', font=('Horseshoes',20), width=750, anchor='nw')
+        gameCanvas.create_text(390, 560,text=self.question[self.current_question+3], fill='#5B9BD5', font=('Horseshoes',20), width=750, anchor='nw')
+        gameCanvas.create_text(390, 630,text=self.question[self.current_question+4], fill='#403CAC', font=('Horseshoes',20), width=750, anchor='nw')
 
     def update (self, ) :
         if self.current_question == self.nbQuest or self.current_question == self.nbQuest*5 :
@@ -65,9 +65,9 @@ class Questions :
         #While there is a next epreuve
         while (lines[i] in list_name_epreuve) :
             if lines[i] == "Menus\n" :    #Set menus list
-                for p in range (1,6) :
+                for p in range (1,5) :
                     self.menu.append(lines[i+p])
-                i+=6
+                i+=5
             else :
                 epreuve = Epreuve(lines[i], lines[i+1])
                 #Get list of questiton
@@ -78,6 +78,7 @@ class Questions :
                     i+=1
                 epreuve.set_question(list_question)
                 self.listEpreuve.append(epreuve)
+                print (list_question)
 
     def update (self, gameState) :
         self.listEpreuve[self.currentEpreuve].update()
@@ -103,7 +104,6 @@ class Questions :
             gameCanvas.create_text(390, 370,text="2 : "+self.menu[1], fill='#5B9BD5', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
             gameCanvas.create_text(390, 440,text="3 : "+self.menu[2], fill='#5B9BD5', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
             gameCanvas.create_text(390, 510,text="4 : "+self.menu[3], fill='#5B9BD5', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
-            gameCanvas.create_text(390, 580,text="5 : "+self.menu[4], fill='#5B9BD5', font=('HorseshoesAndLemonade',20), width=750, anchor='nw')
         else :
             self.listEpreuve[self.currentEpreuve].draw(gameCanvas)
 

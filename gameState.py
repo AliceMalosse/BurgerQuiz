@@ -67,10 +67,15 @@ class GameState() :
                 self.teamList[3].plusmiam()
             except :
                 print ("No team Creamy")    
+        elif key == "n" :
+            try : 
+                self.next_question()
+            except : 
+                print("'n' command do not work, try to press the 'Next' Button to change question.")
         #Dealing with menu interface command
         elif key == "s" :
             try :
-                self.question.currentEpreuve = 8
+                self.question.currentEpreuve = 7
             except :
                 print ("Error in skipping Menu")
         elif key == "e" :
@@ -88,5 +93,3 @@ class GameState() :
             self.question.choose_menu(3)
         elif key == "4" :
             self.question.choose_menu(4)
-        elif key == "5" :
-            self.question.choose_menu(5)
